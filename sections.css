@@ -1,0 +1,35 @@
+        .section-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Adjust height as needed */
+        }
+
+        .section-box {
+            width: 90%;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .section-box .p1 {
+           margin-top: 0.5em;
+           margin-bottom: -1px;
+           font-size: 1.5em;
+           font-weight: bold;
+        }
+
+        .section-box button
+        {
+            margin-top: -0.5em;
+        }
